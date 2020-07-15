@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb51ae45-9565-46da-b8dd-75862f1a2114">
+  <producedTypes>
+    <objectType typeId="0efa21ff-dd42-4366-ac07-7dda11c9ca57" valueTypeId="599dab25-a460-4df1-85f4-d188587946f9"/>
+  </producedTypes>
+  <name>АнализИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ информационной базы</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="79cda015-921d-4722-87b4-79defe83258f"/>
+  <defaultForm>ExternalDataProcessor.АнализИнформационнойБазы.Form.ОбычнаяФорма</defaultForm>
+  <auxiliaryForm>ExternalDataProcessor.АнализИнформационнойБазы.Form.УправляемаяФорма</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="26feb262-2ea3-40fa-84fe-29f0b4aaec57">
+    <name>АнализСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочники</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="709db46b-de9d-4d4b-ae4a-17e7200fd3e8">
+    <name>АнализДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ed408f3-51bb-449e-8e1a-f8790253c853">
+    <name>АнализПлановВидовХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы видов характеристик</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a2e976b4-1af0-4e9d-b341-dc186973015f">
+    <name>АнализПлановСчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы счетов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="50800435-ef38-43cd-94d8-297dfce54c6f">
+    <name>АнализПлановВидовРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы видов расчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9888a772-1490-405d-9c56-5c32bce49b01">
+    <name>АнализРегистровСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистры сведений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d597fb24-d0e0-4cb9-ba57-546edb0377d6">
+    <name>АнализРегистровНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистры накопления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef5ea6ee-f499-4c5c-baab-5dc0ed6de34f">
+    <name>АнализРегистровБухгалтерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистры бухгалтерии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74261e10-4abd-411e-85e5-d2b1451601cb">
+    <name>АнализРегистровРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистры расчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fbc9d10f-eb3c-4765-a674-9e99617acd53">
+    <name>АнализБизнесПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процессы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9692f211-89df-4aba-aee5-bc1c914c979e">
+    <name>АнализЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d05d7402-5300-46d6-bc9d-0cb61972debf">
+    <name>НачПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4d2c425-2985-4b00-88b8-77579b4fd7fd">
+    <name>КонПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4f9ee80-1b9d-48cd-8b22-1c2d4375845e">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="aaf0d7df-081a-46b1-91e4-5f57cc0b8d5c">
+    <name>ОбычнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычная форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="52f9d397-5135-4364-8460-8ccf085ae5c5">
+    <name>УправляемаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управляемая форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e6e0b13c-6fd9-4644-a7a2-e1f0aaeded16">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="ec699e9b-d7ff-4bc2-8db6-66f3e7e6fd75">
+    <name>ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
